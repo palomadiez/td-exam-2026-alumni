@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: router
-          image: router:latest
+          image: gcr.io/challenge-494006/router:latest
           ports:
             - containerPort: 3000
           volumeMounts:

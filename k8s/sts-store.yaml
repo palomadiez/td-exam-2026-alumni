@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: storage
-          image: backend-storage:latest
+          image: gcr.io/challenge-494006/backend-storage:latest
           ports:
             - containerPort: 3000
           volumeMounts:
