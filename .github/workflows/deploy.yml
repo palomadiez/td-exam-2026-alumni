@@ -6,9 +6,9 @@ on:
       - main
 
 env:
-  PROJECT_ID: ${{ challenge-494006 }}
-  GKE_CLUSTER: ${{ palomadiezamatriain-td2026 }}
-  GKE_ZONE: ${{ europe-west4-a }}
+  PROJECT_ID: ${{ env.PROJECT_ID }}
+  GKE_CLUSTER: ${{ env.GKE_CLUSTER }}
+  GKE_ZONE: ${{ env.GKE_ZONE }}
   IMAGE_NAME_ROUTER: gcr.io/${{ env.PROJECT_ID }}/router
   IMAGE_NAME_API: gcr.io/${{ env.PROJECT_ID }}/api-gw
   IMAGE_NAME_STORE: gcr.io/${{ env.PROJECT_ID }}/backend-storage
