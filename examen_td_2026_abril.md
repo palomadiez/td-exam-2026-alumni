@@ -39,7 +39,7 @@
 - C) Siempre contienen un solo contenedor
 - D) Se reprograman automáticamente si fallan
 
-**Solución:**  B y
+**Solución:**  A y B
 
 ## **5. Sobre ReplicaSet, elige las respuestas correctas:**
 
@@ -75,7 +75,7 @@
 - C) No permiten escalado
 - D) Usan ReplicaSets por debajo
 
-**Solución:** 
+**Solución:** A y B
 
 ## **9. Elige las respuestas correctas sobre Services:**
 
@@ -92,7 +92,7 @@
 - C) Cloud Functions no permite escalar a cero
 - D) Cloud Run cobra por el tiempo que la instancia está procesando peticiones
 
-**Solución:** 
+**Solución:** C
 
 ## **11. Elige las respuestas correctas sobre StorageClass:**
 
@@ -101,7 +101,7 @@
 - C) Es necesario para PV estáticos
 - D) Puede definir parámetros del almacenamiento
 
-**Solución:** 
+**Solución:** A, B y D
 
 ## **12. Elige las respuestas correctas respecto a los ConfigMaps:**
 
@@ -110,7 +110,7 @@
 - C) Se usan para secretos
 - D) Se pueden inyectar como variables de entorno
 
-**Solución:**  ? y D 
+**Solución:**  A y D 
 
 ## **13. Elige la respuesta correcta sobre Cloud Functions (2nd Gen)**
 - A) Está construida sobre Cloud Run y Eventarc
@@ -136,7 +136,7 @@
 - C) `git switch -c <nombre>` es una alternativa moderna para crear y cambiar de rama
 - D) `git commit -m` sirve para fusionar ramas
 
-**Solución:** A 
+**Solución:** A y B
 
 
 ## **16. Elige las respuestas correctas respecto a los workflows de GitHub Actions**
@@ -161,7 +161,7 @@
 - C) Un workflow puede contener múltiples "Jobs" que se ejecutan en paralelo por defecto
 - D) La sección `on:` define los eventos que disparan el workflow
 
-**Solución:** A 
+**Solución:** A y C
 
 ## **19. Que afirmación es correcta sobre Google Cloud Logging**
 - A) Cloud Logging permite centralizar los logs de Cloud Run, GKE y Cloud Functions
@@ -177,4 +177,4 @@
 - C) `terraform refresh` actualiza el estado local con los cambios hechos manualmente en la nube
 - D) El estado solo puede guardarse de forma local en el disco del desarrollador
 
-**Solución:** A y 
+**Solución:** A y C
